@@ -13,3 +13,6 @@ Doing my best to use many languages, not just JS and TS
 ## To Do
 - Mergesort.
 - Quicksort
+- Traveling Salesman Problem
+- Brainfuck Compiler
+- Numerical Integral Calculator

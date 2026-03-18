@@ -15,3 +15,4 @@ Doing my best to use many languages, not just JS and TS
 - Quicksort
 - Linear Congruential Generator
 - Box-Muller
+- Radix Sort

@@ -1,5 +1,5 @@
 public class Player{
-  private static int c;
+  private static int c = 400;
   private int k;
 
   private String name;

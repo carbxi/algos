@@ -13,6 +13,7 @@ Doing my best to use many languages, not just JS and TS
 ## To Do
 - Mergesort
 - Quicksort
+- Radix Sort
 - Linear Congruential Generator
 - Box-Muller
-- Radix Sort
+- Shunting Yard

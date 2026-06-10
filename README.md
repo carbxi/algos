@@ -9,9 +9,9 @@ Doing my best to use many languages, not just JS and TS
 - [Sieve of Eratosthenes](sieve-of-eratosthenes/) - Find the prime numbers up to n.
 - [Matrix Multiplication](matrix-multiplication) - Multiply Two Matrices
 - [Matrix Determinant](determinant/) - Take the determinant of a matrix
+- [Mergesort](mergesort/) - Sort an array in nlogn
 
 ## To Do
-- Mergesort
 - Quicksort
 - Radix Sort
 - Linear Congruential Generator

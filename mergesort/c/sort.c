@@ -7,23 +7,18 @@ static void merge(int *arr, int *buffer, int lo, int hi, int mid){
   int hiptr = mid + 1;
   while(loptr <= mid && hiptr <= hi){
     if(arr[loptr] <= arr[hiptr]){
-      buffer[buffptr] = arr[loptr];
-      loptr++;
+      buffer[buffptr++] = arr[loptr++];
     } else{
-      buffer[buffptr] = arr[hiptr];
-      hiptr++;
+      buffer[buffptr++] = arr[hiptr++];
     }
-    buffptr++;
   }
   while(loptr <= mid){
-    buffer[buffptr] = arr[loptr];
-    loptr++;
+    buffer[buffptr++] = arr[loptr++];
   }
   while(hiptr <= hi){
-    buffer[buffptr] = arr[hiptr];
-    hiptr++;
+    buffer[buffptr++] = arr[hiptr++];
   }
-  for(int i = 0; i <= buffptr; i++){
+  for(int i = 0; i < buffptr; i++){
     arr[lo + i] = buffer[i];
   }
 }
